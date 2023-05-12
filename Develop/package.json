@@ -4,11 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
+    "start:dev": "cd server && npm run server",
     "start": "",
     "server": "",
     "build": "",
-    "install": "",
+    "install": "cd server && npm install && cd ../client && npm install",
     "client": ""
   },
   "keywords": [],
